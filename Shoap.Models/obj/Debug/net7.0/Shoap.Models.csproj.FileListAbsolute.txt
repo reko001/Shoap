@@ -1,0 +1,12 @@
+C:\Repos\Shoap\Shoap.Models\bin\Debug\net7.0\Shoap.Models.deps.json
+C:\Repos\Shoap\Shoap.Models\bin\Debug\net7.0\Shoap.Models.dll
+C:\Repos\Shoap\Shoap.Models\bin\Debug\net7.0\Shoap.Models.pdb
+C:\Repos\Shoap\Shoap.Models\obj\Debug\net7.0\Shoap.Models.csproj.AssemblyReference.cache
+C:\Repos\Shoap\Shoap.Models\obj\Debug\net7.0\Shoap.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Repos\Shoap\Shoap.Models\obj\Debug\net7.0\Shoap.Models.AssemblyInfoInputs.cache
+C:\Repos\Shoap\Shoap.Models\obj\Debug\net7.0\Shoap.Models.AssemblyInfo.cs
+C:\Repos\Shoap\Shoap.Models\obj\Debug\net7.0\Shoap.Models.csproj.CoreCompileInputs.cache
+C:\Repos\Shoap\Shoap.Models\obj\Debug\net7.0\Shoap.Models.dll
+C:\Repos\Shoap\Shoap.Models\obj\Debug\net7.0\refint\Shoap.Models.dll
+C:\Repos\Shoap\Shoap.Models\obj\Debug\net7.0\Shoap.Models.pdb
+C:\Repos\Shoap\Shoap.Models\obj\Debug\net7.0\ref\Shoap.Models.dll
