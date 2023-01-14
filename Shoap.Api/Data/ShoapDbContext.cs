@@ -5,7 +5,7 @@ namespace Shoap.Api.Data;
 
 public class ShoapDbContext : DbContext
 {
-    public ShoapDbContext()
+    public ShoapDbContext(DbContextOptions<ShoapDbContext> options) : base(options)
     {
 
     }

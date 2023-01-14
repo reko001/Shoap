@@ -1,3 +1,10 @@
-﻿namespace Shoap.Api.Entities;
+﻿using System.ComponentModel.DataAnnotations.Schema;
 
-public record ProductCategory(int Id, string Name);
+namespace Shoap.Api.Entities;
+
+[Table("product_categories")]
+public class ProductCategory
+{
+    public int Id { get; set; }
+    public string Name { get; set; }
+}

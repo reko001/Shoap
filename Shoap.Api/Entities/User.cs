@@ -1,3 +1,10 @@
-﻿namespace Shoap.Api.Entities;
+﻿using System.ComponentModel.DataAnnotations.Schema;
 
-public record User(int Id, string Name);
+namespace Shoap.Api.Entities;
+
+[Table("users")]
+public class User
+{
+    public int Id { get; set; }
+    public string Name { get; set; }
+}

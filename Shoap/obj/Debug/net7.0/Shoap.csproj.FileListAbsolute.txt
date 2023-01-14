@@ -37,6 +37,8 @@ C:\Repos\Shoap\Shoap\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Win32.Registr
 C:\Repos\Shoap\Shoap\bin\Debug\net7.0\wwwroot\_framework\mscorlib.dll
 C:\Repos\Shoap\Shoap\bin\Debug\net7.0\wwwroot\_framework\netstandard.dll
 C:\Repos\Shoap\Shoap\bin\Debug\net7.0\wwwroot\_framework\Shoap.dll
+C:\Repos\Shoap\Shoap\bin\Debug\net7.0\wwwroot\_framework\Shoap.Models.dll
+C:\Repos\Shoap\Shoap\bin\Debug\net7.0\wwwroot\_framework\Shoap.Models.pdb
 C:\Repos\Shoap\Shoap\bin\Debug\net7.0\wwwroot\_framework\Shoap.pdb
 C:\Repos\Shoap\Shoap\bin\Debug\net7.0\wwwroot\_framework\System.AppContext.dll
 C:\Repos\Shoap\Shoap\bin\Debug\net7.0\wwwroot\_framework\System.Buffers.dll
@@ -286,6 +288,7 @@ C:\Repos\Shoap\Shoap\bin\Debug\net7.0\wwwroot\_framework\icudt.dat.gz
 C:\Repos\Shoap\Shoap\bin\Debug\net7.0\wwwroot\_framework\System.AppContext.dll.gz
 C:\Repos\Shoap\Shoap\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Serialization.Primitives.dll.gz
 C:\Repos\Shoap\Shoap\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.Metadata.dll.gz
+C:\Repos\Shoap\Shoap\bin\Debug\net7.0\wwwroot\_framework\Shoap.Models.pdb.gz
 C:\Repos\Shoap\Shoap\bin\Debug\net7.0\wwwroot\_framework\System.Transactions.dll.gz
 C:\Repos\Shoap\Shoap\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Forms.dll.gz
 C:\Repos\Shoap\Shoap\bin\Debug\net7.0\wwwroot\_framework\System.IO.UnmanagedMemoryStream.dll.gz
@@ -311,6 +314,7 @@ C:\Repos\Shoap\Shoap\bin\Debug\net7.0\wwwroot\_framework\System.Xml.XPath.XDocum
 C:\Repos\Shoap\Shoap\bin\Debug\net7.0\wwwroot\_framework\System.Text.Encoding.CodePages.dll.gz
 C:\Repos\Shoap\Shoap\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Serialization.Json.dll.gz
 C:\Repos\Shoap\Shoap\bin\Debug\net7.0\wwwroot\_framework\System.Buffers.dll.gz
+C:\Repos\Shoap\Shoap\bin\Debug\net7.0\wwwroot\_framework\Shoap.Models.dll.gz
 C:\Repos\Shoap\Shoap\bin\Debug\net7.0\wwwroot\_framework\System.Text.Encoding.dll.gz
 C:\Repos\Shoap\Shoap\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.Components.WebAssembly.dll.gz
 C:\Repos\Shoap\Shoap\bin\Debug\net7.0\wwwroot\_framework\System.Collections.NonGeneric.dll.gz
@@ -602,6 +606,8 @@ C:\Repos\Shoap\Shoap\bin\Debug\net7.0\icudt.dat
 C:\Repos\Shoap\Shoap\bin\Debug\net7.0\icudt_CJK.dat
 C:\Repos\Shoap\Shoap\bin\Debug\net7.0\icudt_EFIGS.dat
 C:\Repos\Shoap\Shoap\bin\Debug\net7.0\icudt_no_CJK.dat
+C:\Repos\Shoap\Shoap\bin\Debug\net7.0\Shoap.Models.dll
+C:\Repos\Shoap\Shoap\bin\Debug\net7.0\Shoap.Models.pdb
 C:\Repos\Shoap\Shoap\obj\Debug\net7.0\Shoap.csproj.AssemblyReference.cache
 C:\Repos\Shoap\Shoap\obj\Debug\net7.0\Shoap.GeneratedMSBuildEditorConfig.editorconfig
 C:\Repos\Shoap\Shoap\obj\Debug\net7.0\Shoap.AssemblyInfoInputs.cache
@@ -806,6 +812,8 @@ C:\Repos\Shoap\Shoap\obj\Debug\net7.0\build-gz\Ge1x+4pH.gz
 C:\Repos\Shoap\Shoap\obj\Debug\net7.0\build-gz\+LXY69ju.gz
 C:\Repos\Shoap\Shoap\obj\Debug\net7.0\build-gz\TfcrPJnf.gz
 C:\Repos\Shoap\Shoap\obj\Debug\net7.0\build-gz\oIP5763b.gz
+C:\Repos\Shoap\Shoap\obj\Debug\net7.0\build-gz\m+ZPaQPP.gz
+C:\Repos\Shoap\Shoap\obj\Debug\net7.0\build-gz\hbUYgJ1s.gz
 C:\Repos\Shoap\Shoap\obj\Debug\net7.0\build-gz\CS33uSxf.gz
 C:\Repos\Shoap\Shoap\obj\Debug\net7.0\build-gz\6h+xujgU.gz
 C:\Repos\Shoap\Shoap\obj\Debug\net7.0\build-gz\CPnRmnqT.gz

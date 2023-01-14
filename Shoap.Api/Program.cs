@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Net.Http.Headers;
 using Shoap.Api.Data;
 using Shoap.Api.Repositories;
 using Shoap.Api.Repositories.Contracts;
@@ -26,6 +27,12 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+app.UseCors(policy =>
+    policy.WithOrigins("https://localhost:7119", "http://localhost:5079")
+    .AllowAnyMethod()
+    .WithHeaders(HeaderNames.ContentType)
+    );
 
 app.UseHttpsRedirection();
 
