@@ -9,13 +9,15 @@ public static class DtoConversions
     {
         return (from product in products
                 join category in productCategories
-                    on product.Id equals category.Id
+                on product.CategoryId equals category.Id
                 select new ProductDto()
                 {
                     Id = product.Id,
                     Name = product.Name,
                     Description = product.Description,
                     Price = product.Price,
+                    ImageUrl = product.ImageUrl,
+                    Visits = product.Visits,
                     CategoryId = product.CategoryId,
                     CategoryName = category.Name
                 }).ToList();

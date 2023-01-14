@@ -1,6 +1,4 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
-using Shoap.Api.Entities;
+﻿using Microsoft.AspNetCore.Mvc;
 using Shoap.Api.Extensions;
 using Shoap.Api.Repositories.Contracts;
 using Shoap.Models.Dtos;

@@ -13,6 +13,30 @@
       "PackagePath": "staticwebassets\\Shoap.styles.css"
     },
     {
+      "Id": "C:\\Repos\\Shoap\\Shoap\\wwwroot\\Images\\Soaps\\domestos.jpg",
+      "PackagePath": "staticwebassets\\Images\\Soaps\\domestos.jpg"
+    },
+    {
+      "Id": "C:\\Repos\\Shoap\\Shoap\\wwwroot\\Images\\Soaps\\dual-power.jpg",
+      "PackagePath": "staticwebassets\\Images\\Soaps\\dual-power.jpg"
+    },
+    {
+      "Id": "C:\\Repos\\Shoap\\Shoap\\wwwroot\\Images\\Soaps\\kret.jpg",
+      "PackagePath": "staticwebassets\\Images\\Soaps\\kret.jpg"
+    },
+    {
+      "Id": "C:\\Repos\\Shoap\\Shoap\\wwwroot\\Images\\Soaps\\ludwik.jpg",
+      "PackagePath": "staticwebassets\\Images\\Soaps\\ludwik.jpg"
+    },
+    {
+      "Id": "C:\\Repos\\Shoap\\Shoap\\wwwroot\\Images\\Soaps\\mydlo-melonowe.jpg",
+      "PackagePath": "staticwebassets\\Images\\Soaps\\mydlo-melonowe.jpg"
+    },
+    {
+      "Id": "C:\\Repos\\Shoap\\Shoap\\wwwroot\\Images\\Soaps\\mydlo-waniliowe.jpg",
+      "PackagePath": "staticwebassets\\Images\\Soaps\\mydlo-waniliowe.jpg"
+    },
+    {
       "Id": "C:\\Repos\\Shoap\\Shoap\\wwwroot\\css\\app.css",
       "PackagePath": "staticwebassets\\css\\app.css"
     },
@@ -59,6 +83,22 @@
     {
       "Id": "C:\\Repos\\Shoap\\Shoap\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
       "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
+    },
+    {
+      "Id": "C:\\Repos\\Shoap\\Shoap\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\Repos\\Shoap\\Shoap\\wwwroot\\icon-192.png",
+      "PackagePath": "staticwebassets\\icon-192.png"
+    },
+    {
+      "Id": "C:\\Repos\\Shoap\\Shoap\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Repos\\Shoap\\Shoap\\wwwroot\\sample-data\\weather.json",
+      "PackagePath": "staticwebassets\\sample-data\\weather.json"
     },
     {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.Shoap.Microsoft.AspNetCore.StaticWebAssets.props",

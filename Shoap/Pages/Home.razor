@@ -1,0 +1,17 @@
+﻿@page "/"
+@inherits ProductsBase
+
+<h2 align="center">Welcome to Shoap!</h2>
+<h3 align="center">Check our most popular products</h3>
+
+@if(Products == null)
+{
+    <h2>Loading products...</h2>
+}
+else
+{
+    var productsToShow = Products.OrderByDescending(product => product.Visits).Take(24);
+    <div class="row m-md-auto">
+        <DisplayProducts Products="@productsToShow"></DisplayProducts>
+    </div>
+}

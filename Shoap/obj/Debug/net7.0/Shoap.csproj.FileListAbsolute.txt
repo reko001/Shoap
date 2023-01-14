@@ -1,3 +1,9 @@
+C:\Repos\Shoap\Shoap\obj\Debug\net7.0\Shoap.csproj.AssemblyReference.cache
+C:\Repos\Shoap\Shoap\obj\Debug\net7.0\Shoap.GeneratedMSBuildEditorConfig.editorconfig
+C:\Repos\Shoap\Shoap\obj\Debug\net7.0\Shoap.AssemblyInfoInputs.cache
+C:\Repos\Shoap\Shoap\obj\Debug\net7.0\Shoap.AssemblyInfo.cs
+C:\Repos\Shoap\Shoap\obj\Debug\net7.0\Shoap.csproj.CoreCompileInputs.cache
+C:\Repos\Shoap\Shoap\obj\Debug\net7.0\Shoap.MvcApplicationPartsAssemblyInfo.cache
 C:\Repos\Shoap\Shoap\bin\Debug\net7.0\wwwroot\_framework\blazor.boot.json
 C:\Repos\Shoap\Shoap\bin\Debug\net7.0\wwwroot\_framework\blazor.webassembly.js
 C:\Repos\Shoap\Shoap\bin\Debug\net7.0\wwwroot\_framework\dotnet.7.0.0.4gczh3xxgq.js
@@ -608,12 +614,6 @@ C:\Repos\Shoap\Shoap\bin\Debug\net7.0\icudt_EFIGS.dat
 C:\Repos\Shoap\Shoap\bin\Debug\net7.0\icudt_no_CJK.dat
 C:\Repos\Shoap\Shoap\bin\Debug\net7.0\Shoap.Models.dll
 C:\Repos\Shoap\Shoap\bin\Debug\net7.0\Shoap.Models.pdb
-C:\Repos\Shoap\Shoap\obj\Debug\net7.0\Shoap.csproj.AssemblyReference.cache
-C:\Repos\Shoap\Shoap\obj\Debug\net7.0\Shoap.GeneratedMSBuildEditorConfig.editorconfig
-C:\Repos\Shoap\Shoap\obj\Debug\net7.0\Shoap.AssemblyInfoInputs.cache
-C:\Repos\Shoap\Shoap\obj\Debug\net7.0\Shoap.AssemblyInfo.cs
-C:\Repos\Shoap\Shoap\obj\Debug\net7.0\Shoap.csproj.CoreCompileInputs.cache
-C:\Repos\Shoap\Shoap\obj\Debug\net7.0\Shoap.MvcApplicationPartsAssemblyInfo.cache
 C:\Repos\Shoap\Shoap\obj\Debug\net7.0\build-gz\U+qQENqo.gz
 C:\Repos\Shoap\Shoap\obj\Debug\net7.0\build-gz\YK0rPzmn.gz
 C:\Repos\Shoap\Shoap\obj\Debug\net7.0\build-gz\icMXRjy4.gz

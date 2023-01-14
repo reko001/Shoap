@@ -9,6 +9,9 @@ public class Product
     public string Name { get; set; }
     public string? Description { get; set; }
     public decimal Price { get; set; }
+    [Column("IMAGE_URL")]
+    public string ImageUrl { get; set; }
+    public int Visits { get; set; }
     [Column("CATEGORY_ID")]
     public int CategoryId { get; set; }
 }
