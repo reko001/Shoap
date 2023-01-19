@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "bjRA93S0slMVeX4F58t+acJZYEFjq6PEFdf0DaSQzcQ=",
+  "Hash": "SYt6+9Svw3Fx9kJS8ol2gJVU/YyOF5sQ3OkwoaLzjpw=",
   "Source": "Shoap",
   "BasePath": "/",
   "Mode": "Root",
@@ -7325,23 +7325,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\index.html"
-    },
-    {
-      "Identity": "C:\\Repos\\Shoap\\Shoap\\wwwroot\\sample-data\\weather.json",
-      "SourceId": "Shoap",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Repos\\Shoap\\Shoap\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "sample-data/weather.json",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\sample-data\\weather.json"
     }
   ]
 }

@@ -22,12 +22,12 @@ public class ProductRepository : IProductRepository
          throw new NotImplementedException();
     }
 
-    public Task<Product?> GetItem(int id)
+    public async Task<Product?> GetProduct(int id)
     {
-        throw new NotImplementedException();
+        return await _context.Products.FindAsync(id);
     }
 
-    public async Task<IEnumerable<Product>?> GetItems()
+    public async Task<IEnumerable<Product>?> GetProducts()
     {
         return await _context.Products.ToListAsync();
     }

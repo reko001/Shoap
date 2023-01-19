@@ -1,0 +1,18 @@
+﻿@page "/Product/{Id:int}"
+@inherits ProductBase
+
+@if(Product != null)
+{
+    <div class="product">
+        <div class="product-image">
+            <img class="img-thumbnail" src="@Product.ImageUrl" width="400px">
+        </div>
+        <div class="product-text">
+            <h4 class="product-name"><b>@Product.Name</b></h4>
+            <h5>Cena: @Product.Price zł</h5>
+            <p>@Product.Description</p>
+            <button class="add-to-cart-button" @onclick=AddToCart>Add to cart</button>
+        </div>
+    </div>
+
+}

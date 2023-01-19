@@ -18,6 +18,7 @@ builder.Services.AddDbContextPool<ShoapDbContext>(options =>
 );
 
 builder.Services.AddScoped<IProductRepository, ProductRepository>();
+builder.Services.AddScoped<IUserRepository, UserRepository>();
 
 var app = builder.Build();
 

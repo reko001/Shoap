@@ -198,15 +198,15 @@
       "mscorlib.dll": "sha256-pO\/W4w\/X+UjVMUMaxE5tYTQ0tILP+hmMu0zi0MSVBLc=",
       "netstandard.dll": "sha256-kj5cBXzwPYC+HD+P8+6VybY34JtEzjXjMIHXEI3hIiM=",
       "System.Private.CoreLib.dll": "sha256-Awk1lCiFfH7r9AAZfBtGqS8rhv6UJ5lUu3yF6HDH3tQ=",
-      "Shoap.Models.dll": "sha256-sKXgB0\/NG5DgfL\/xeORodugA5jMUwTB08edRxUY8q38=",
-      "Shoap.dll": "sha256-ifNyPWVNz4cTAuVTIxQtVT+Ua4Ghm0l5vYkxR0GxDXE="
+      "Shoap.Models.dll": "sha256-ttwWfGjfesOWmaVru5LVpDMk70h\/CZaTL3KepTwSsVo=",
+      "Shoap.dll": "sha256-BhGvawifWHW208F0b7f0LAXgL1ch5inJ+G13Ch7zxQQ="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "Shoap.Models.pdb": "sha256-W+6ujkcyvFp85AmPdFpVP3Xp03nskl618JxMUc1WNy8=",
-      "Shoap.pdb": "sha256-J3CnPNhKrFqG4ASB2m9907o15bbB065gtCMFgsM5908="
+      "Shoap.Models.pdb": "sha256-tw0C4jlpPmSzwQYGZcKwixe2ZU0ONxEbdKw6zP2DYsk=",
+      "Shoap.pdb": "sha256-JLfznUFKrAVU4KZIxrewCOPSKF5oNmEqI+joMorpsis="
     },
     "runtime": {
       "dotnet.7.0.0.4gczh3xxgq.js": "sha256-2jNLve8W0sST0LAebgAc1IwSnGhkbjOKO8QPWWiJssI=",

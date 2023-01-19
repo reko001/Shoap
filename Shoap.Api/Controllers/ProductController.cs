@@ -16,11 +16,11 @@ public class ProductController : ControllerBase
 	}
 
 	[HttpGet]
-	public async Task<ActionResult<IEnumerable<ProductDto>>> GetItems()
+	public async Task<ActionResult<IEnumerable<ProductDto>>> GetProducts()
 	{
 		try
 		{
-			var products = await _productRepository.GetItems();
+			var products = await _productRepository.GetProducts();
 			var productCategories = await _productRepository.GetCategories();
 
 			if(products == null || productCategories == null) 
@@ -29,13 +29,55 @@ public class ProductController : ControllerBase
 			}
 			else
 			{
-				var productDtos = products.ConverToDto(productCategories);
+				var productDtos = products.ConvertToDto(productCategories);
 				return Ok(productDtos);
 			}
 		}
-		catch (Exception)
+		catch
 		{
 			return StatusCode(StatusCodes.Status500InternalServerError, "Error retrieving data from the server");
 		}
 	}
+
+	[HttpGet]
+	[Route("{id}")]
+	public async Task<ActionResult<ProductDto>> GetProduct(int id)
+	{
+		try
+		{
+			var product = await _productRepository.GetProduct(id);
+            var categories = await _productRepository.GetCategories();
+			if(product == null || categories == null)
+			{
+				return NotFound();
+			}
+			var productDto = product.ConverToDto(categories);
+			return Ok(productDto);
+
+        }
+        catch
+		{
+            return StatusCode(StatusCodes.Status500InternalServerError, "Error retrieving data from the server");
+        }
+    }
+
+	[HttpGet]
+	[Route(nameof(GetCategories))]
+	public async Task<ActionResult<IEnumerable<ProductCategoryDto>>> GetCategories()
+	{
+		try
+		{
+			var categories = await _productRepository.GetCategories();
+			if(categories == null)
+			{
+				return NotFound();
+			}
+			var categoryDtos = categories.ConvertToDto();
+			return Ok(categoryDtos);
+		}
+		catch
+		{
+            return StatusCode(StatusCodes.Status500InternalServerError, "Error retrieving data from the server");
+        }
+    }
 }

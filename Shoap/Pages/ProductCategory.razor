@@ -1,0 +1,10 @@
+﻿@page "/ProductsCategory/{CategoryId:int}"
+@inherits ProductCategoryBase
+
+@if(Products != null)
+{
+    <h3 align="center">@CategoryName</h3>
+    <div class="row m-md-auto">
+        <DisplayProducts Products="@Products"/>
+    </div>
+}

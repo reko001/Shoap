@@ -12,6 +12,6 @@ public class ProductsBase : ComponentBase
 
     protected override async Task OnInitializedAsync()
     {
-        Products = await ProductService.GetItems();
+        Products = await ProductService.GetProducts();
     }
 }

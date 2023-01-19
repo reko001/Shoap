@@ -3,15 +3,17 @@
 @foreach(var product in Products)
 {
     <div class="col-sm-2">
-        <div class="product">
-            <img class="img-thumbnail" src="@product.ImageUrl" >
-            <div class="product-text" align="center">
-                <h5 class="product-name"><b>@product.Name</b></h5>
-                <p class="product-information">
-                    @product.Price zł<br>
-                    @product.Description<br>
-                </p>
+        <a href="/Product/@product.Id">
+            <div class="product" align="center">
+                <img class="img-thumbnail" src="@product.ImageUrl" >
+                <div class="product-text">
+                    <h5 class="product-name"><b>@product.Name</b></h5>
+                    <p class="product-information">
+                        @product.Price zł<br>
+                        @product.Description<br>
+                    </p>
+                </div>
             </div>
-        </div>
+        </a>
     </div>
 }
