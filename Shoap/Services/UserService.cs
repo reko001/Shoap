@@ -45,10 +45,8 @@ public class UserService : IUserService
     {
         try
         {
-            var req = new HttpRequestMessage(HttpMethod.Post, "api/User");
-            req.Headers.Add("login", login);
-            req.Headers.Add("password", password);
-            await _httpClient.SendAsync(req);
+            UserDto user = new() { Login = login, Password = password };
+            await _httpClient.PostAsJsonAsync("api/User", user);
         }
         catch
         {

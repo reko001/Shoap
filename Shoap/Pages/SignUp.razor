@@ -1,0 +1,11 @@
+﻿@page "/SignUp"
+@inherits SignUpBase
+
+<EditForm Model="@SignUpModel" OnValidSubmit="@SignUp">
+    <label>Login</label><br />
+    <InputText id="login" @bind-Value="SignUpModel.Login" /><br />
+    <label>Password</label><br />
+    <InputText id="password" type="password" @bind-Value="SignUpModel.Password" /><br />
+    <button type="submit">Sign Up</button><br />
+    <label>@SignUpModel.ErrorMessage</label>
+</EditForm>
