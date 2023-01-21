@@ -16,6 +16,7 @@ public class UserController : ControllerBase
     }
 
     [HttpPost]
+    [Route("InsertUser/{login}_{password}")]
     public async Task<ActionResult> InsertUser(string login, string password)
     {
         try
@@ -23,7 +24,7 @@ public class UserController : ControllerBase
             var existingUser = await _userRepository.GetUser(login);
             if(existingUser != null)
             {
-                return StatusCode(StatusCodes.Status406NotAcceptable, "User with such login already exists");
+                return StatusCode(StatusCodes.Status409Conflict, "User with such login already exists");
             }
             User user = new()
             {

@@ -19,6 +19,7 @@ builder.Services.AddDbContextPool<ShoapDbContext>(options =>
 
 builder.Services.AddScoped<IProductRepository, ProductRepository>();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
+builder.Services.AddScoped<ICartItemRepository, CartItemRepository>();
 
 var app = builder.Build();
 
@@ -32,7 +33,7 @@ if (app.Environment.IsDevelopment())
 app.UseCors(policy =>
     policy.WithOrigins("https://localhost:7098", "http://localhost:5079")
     .AllowAnyMethod()
-    .WithHeaders(HeaderNames.ContentType)
+    .WithHeaders(HeaderNames.ContentType, "productid", "userid")
     );
 
 app.UseHttpsRedirection();

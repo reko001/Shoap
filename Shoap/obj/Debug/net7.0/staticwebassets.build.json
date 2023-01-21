@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "SYt6+9Svw3Fx9kJS8ol2gJVU/YyOF5sQ3OkwoaLzjpw=",
+  "Hash": "SyYsZKqv24KV5RB4y0jXP6DeuBS0J82No9OpWsP2IUg=",
   "Source": "Shoap",
   "BasePath": "/",
   "Mode": "Root",
@@ -255,6 +255,57 @@
       "OriginalItemSpec": "C:\\Users\\dawid\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly\\7.0.0\\lib\\net7.0\\Microsoft.AspNetCore.Components.WebAssembly.dll"
     },
     {
+      "Identity": "C:\\Repos\\Shoap\\Shoap\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Http.Abstractions.dll",
+      "SourceId": "Shoap",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Repos\\Shoap\\Shoap\\bin\\Debug\\net7.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Http.Abstractions.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\dawid\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\lib\\netstandard2.0\\Microsoft.AspNetCore.Http.Abstractions.dll"
+    },
+    {
+      "Identity": "C:\\Repos\\Shoap\\Shoap\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Http.dll",
+      "SourceId": "Shoap",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Repos\\Shoap\\Shoap\\bin\\Debug\\net7.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Http.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\dawid\\.nuget\\packages\\microsoft.aspnetcore.http\\2.2.2\\lib\\netstandard2.0\\Microsoft.AspNetCore.Http.dll"
+    },
+    {
+      "Identity": "C:\\Repos\\Shoap\\Shoap\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Http.Features.dll",
+      "SourceId": "Shoap",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Repos\\Shoap\\Shoap\\bin\\Debug\\net7.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Http.Features.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\dawid\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\lib\\netstandard2.0\\Microsoft.AspNetCore.Http.Features.dll"
+    },
+    {
       "Identity": "C:\\Repos\\Shoap\\Shoap\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Metadata.dll",
       "SourceId": "Shoap",
       "SourceType": "Computed",
@@ -270,6 +321,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\dawid\\.nuget\\packages\\microsoft.aspnetcore.metadata\\7.0.0\\lib\\net7.0\\Microsoft.AspNetCore.Metadata.dll"
+    },
+    {
+      "Identity": "C:\\Repos\\Shoap\\Shoap\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.WebUtilities.dll",
+      "SourceId": "Shoap",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Repos\\Shoap\\Shoap\\bin\\Debug\\net7.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.WebUtilities.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\dawid\\.nuget\\packages\\microsoft.aspnetcore.webutilities\\2.2.0\\lib\\netstandard2.0\\Microsoft.AspNetCore.WebUtilities.dll"
     },
     {
       "Identity": "C:\\Repos\\Shoap\\Shoap\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.CSharp.dll",
@@ -493,6 +561,23 @@
       "OriginalItemSpec": "C:\\Users\\dawid\\.nuget\\packages\\microsoft.extensions.logging\\7.0.0\\lib\\net7.0\\Microsoft.Extensions.Logging.dll"
     },
     {
+      "Identity": "C:\\Repos\\Shoap\\Shoap\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.Extensions.ObjectPool.dll",
+      "SourceId": "Shoap",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Repos\\Shoap\\Shoap\\bin\\Debug\\net7.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.ObjectPool.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\dawid\\.nuget\\packages\\microsoft.extensions.objectpool\\2.2.0\\lib\\netstandard2.0\\Microsoft.Extensions.ObjectPool.dll"
+    },
+    {
       "Identity": "C:\\Repos\\Shoap\\Shoap\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.Extensions.Options.dll",
       "SourceId": "Shoap",
       "SourceType": "Computed",
@@ -559,6 +644,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\dawid\\.nuget\\packages\\microsoft.jsinterop.webassembly\\7.0.0\\lib\\net7.0\\Microsoft.JSInterop.WebAssembly.dll"
+    },
+    {
+      "Identity": "C:\\Repos\\Shoap\\Shoap\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.Net.Http.Headers.dll",
+      "SourceId": "Shoap",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Repos\\Shoap\\Shoap\\bin\\Debug\\net7.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Net.Http.Headers.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\dawid\\.nuget\\packages\\microsoft.net.http.headers\\2.2.0\\lib\\netstandard2.0\\Microsoft.Net.Http.Headers.dll"
     },
     {
       "Identity": "C:\\Repos\\Shoap\\Shoap\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.VisualBasic.Core.dll",
@@ -4692,6 +4794,23 @@
       "OriginalItemSpec": "C:\\Repos\\Shoap\\Shoap\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Diagnostics.Process.dll"
     },
     {
+      "Identity": "C:\\Repos\\Shoap\\Shoap\\obj\\Debug\\net7.0\\build-gz\\F1hPe40l.gz",
+      "SourceId": "Shoap",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Repos\\Shoap\\Shoap\\bin\\Debug\\net7.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.ObjectPool.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Repos\\Shoap\\Shoap\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.Extensions.ObjectPool.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Repos\\Shoap\\Shoap\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.Extensions.ObjectPool.dll"
+    },
+    {
       "Identity": "C:\\Repos\\Shoap\\Shoap\\obj\\Debug\\net7.0\\build-gz\\F37jndf1.gz",
       "SourceId": "Shoap",
       "SourceType": "Computed",
@@ -4775,6 +4894,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Repos\\Shoap\\Shoap\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Security.Cryptography.Csp.dll"
+    },
+    {
+      "Identity": "C:\\Repos\\Shoap\\Shoap\\obj\\Debug\\net7.0\\build-gz\\FQtY5dEZ.gz",
+      "SourceId": "Shoap",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Repos\\Shoap\\Shoap\\bin\\Debug\\net7.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Http.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Repos\\Shoap\\Shoap\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Http.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Repos\\Shoap\\Shoap\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Http.dll"
     },
     {
       "Identity": "C:\\Repos\\Shoap\\Shoap\\obj\\Debug\\net7.0\\build-gz\\fW3neKV9.gz",
@@ -5321,6 +5457,23 @@
       "OriginalItemSpec": "C:\\Repos\\Shoap\\Shoap\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Diagnostics.TextWriterTraceListener.dll"
     },
     {
+      "Identity": "C:\\Repos\\Shoap\\Shoap\\obj\\Debug\\net7.0\\build-gz\\llrEP44N.gz",
+      "SourceId": "Shoap",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Repos\\Shoap\\Shoap\\bin\\Debug\\net7.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.WebUtilities.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Repos\\Shoap\\Shoap\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.WebUtilities.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Repos\\Shoap\\Shoap\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.WebUtilities.dll"
+    },
+    {
       "Identity": "C:\\Repos\\Shoap\\Shoap\\obj\\Debug\\net7.0\\build-gz\\llZmDY11.gz",
       "SourceId": "Shoap",
       "SourceType": "Computed",
@@ -5678,6 +5831,23 @@
       "OriginalItemSpec": "C:\\Repos\\Shoap\\Shoap\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.Extensions.Configuration.Json.dll"
     },
     {
+      "Identity": "C:\\Repos\\Shoap\\Shoap\\obj\\Debug\\net7.0\\build-gz\\on1FIUuX.gz",
+      "SourceId": "Shoap",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Repos\\Shoap\\Shoap\\bin\\Debug\\net7.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Net.Http.Headers.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Repos\\Shoap\\Shoap\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.Net.Http.Headers.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Repos\\Shoap\\Shoap\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.Net.Http.Headers.dll"
+    },
+    {
       "Identity": "C:\\Repos\\Shoap\\Shoap\\obj\\Debug\\net7.0\\build-gz\\OP8IN6nG.gz",
       "SourceId": "Shoap",
       "SourceType": "Computed",
@@ -6001,6 +6171,23 @@
       "OriginalItemSpec": "C:\\Repos\\Shoap\\Shoap\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Diagnostics.StackTrace.dll"
     },
     {
+      "Identity": "C:\\Repos\\Shoap\\Shoap\\obj\\Debug\\net7.0\\build-gz\\rJMt1Bq6.gz",
+      "SourceId": "Shoap",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Repos\\Shoap\\Shoap\\bin\\Debug\\net7.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Http.Features.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Repos\\Shoap\\Shoap\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Http.Features.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Repos\\Shoap\\Shoap\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Http.Features.dll"
+    },
+    {
       "Identity": "C:\\Repos\\Shoap\\Shoap\\obj\\Debug\\net7.0\\build-gz\\rmCV0M14.gz",
       "SourceId": "Shoap",
       "SourceType": "Computed",
@@ -6033,6 +6220,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Repos\\Shoap\\Shoap\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Private.Xml.Linq.dll"
+    },
+    {
+      "Identity": "C:\\Repos\\Shoap\\Shoap\\obj\\Debug\\net7.0\\build-gz\\ROB8+GxI.gz",
+      "SourceId": "Shoap",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Repos\\Shoap\\Shoap\\bin\\Debug\\net7.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Http.Abstractions.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Repos\\Shoap\\Shoap\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Http.Abstractions.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Repos\\Shoap\\Shoap\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Http.Abstractions.dll"
     },
     {
       "Identity": "C:\\Repos\\Shoap\\Shoap\\obj\\Debug\\net7.0\\build-gz\\RqVa9e6J.gz",

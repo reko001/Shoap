@@ -59,4 +59,18 @@ public static class DtoConversions
             Money = user.Money,
         };
     }
+
+    public static CartItemDto ConvertToDto(this CartItem cartItem)
+    {
+        return new CartItemDto()
+        {
+            ProductId = cartItem.ProductId,
+            UserId = cartItem.UserId
+        };
+    }
+
+    public static IEnumerable<CartItemDto> ConverToDto(this IEnumerable<CartItem> cartItems)
+    {
+        return cartItems.Select(cartItem => cartItem.ConvertToDto());
+    }
 }

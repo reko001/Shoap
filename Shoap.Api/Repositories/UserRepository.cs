@@ -29,4 +29,5 @@ public class UserRepository : IUserRepository
     {
         return (await _context.Users.ToListAsync()).Select(user => user.Id).Max() + 1;
     }
+
 }

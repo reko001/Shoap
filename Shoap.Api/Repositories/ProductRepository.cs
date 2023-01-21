@@ -17,14 +17,16 @@ public class ProductRepository : IProductRepository
         return await _context.ProductCategories.ToListAsync();
     }
 
-    public Task<ProductCategory?> GetCategory(int id)
-    {
-         throw new NotImplementedException();
-    }
-
     public async Task<Product?> GetProduct(int id)
     {
-        return await _context.Products.FindAsync(id);
+        var product = await _context.Products.FindAsync(id);
+        if (product != null)
+        {
+            product.Visits++;
+            _context.Products.Update(product);
+            _context.SaveChanges();
+        }
+        return product;
     }
 
     public async Task<IEnumerable<Product>?> GetProducts()

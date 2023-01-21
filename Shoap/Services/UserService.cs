@@ -10,6 +10,24 @@ public class UserService : IUserService
     {
         _httpClient = httpClient;
     }
+
+    public async Task<bool> ExistsUser(string login, string password)
+    {
+        try
+        {
+            var user = await GetUser(login);
+            if(user == null)
+            {
+                return false;
+            }
+            return user.Password == password;
+        }
+        catch
+        {
+            return false;
+        }
+    }
+
     public async Task<UserDto?> GetUser(string login)
     {
         try
@@ -19,7 +37,7 @@ public class UserService : IUserService
         }
         catch
         {
-            throw;
+            return null;
         }
     }
 
@@ -37,4 +55,6 @@ public class UserService : IUserService
             throw;
         }
     }
+
+
 }

@@ -7,18 +7,22 @@ public class SignInBase : ComponentBase
 {
     [Inject]
     public IUserService UserService { get; set; }
+    [Inject]
+    public IContextService ContextService { get; set; }
+    [Inject]
+    public NavigationManager NavigationManager { get; set; }
     public SignInModel SignInModel { get; set; } = new();
 
-    public void SignIn()
+    public async Task SignIn()
     {
-        var user = UserService.GetUser(SignInModel.Login);
-        if(user != null)
-        {
-
-        }
-        if(user == null)
+        if(!(await UserService.ExistsUser(SignInModel!.Login, SignInModel!.Password)))
         {
             SignInModel.ErrorMessage = "Incorrect login or password.\nPlease try again.";
+            return;
         }
+        var user = await UserService.GetUser(SignInModel!.Login);
+        ContextService.UserId = user.Id;
+        ContextService.UserName = user.Login;
+        NavigationManager.NavigateTo("/");
     }
 }

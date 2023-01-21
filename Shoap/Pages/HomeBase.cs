@@ -4,7 +4,7 @@ using Shoap.Services.Contracts;
 
 namespace Shoap.Pages;
 
-public class ProductsBase : ComponentBase
+public class HomeBase : ComponentBase
 {
     [Inject]
     public IProductService ProductService { get; set; }
