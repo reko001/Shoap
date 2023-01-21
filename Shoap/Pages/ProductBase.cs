@@ -35,13 +35,13 @@ public class ProductBase : ComponentBase
 
     public async Task AddToCart()
     {
-        int? userId = ContextService.UserId;
-        if(userId == null)
+        var user = ContextService.User;
+        if(user == null)
         {
             await JSRuntime.InvokeVoidAsync("alert", "You need to be logged in to add item to cart!");
             return;
         }
-        await CartItemService.InsertCartItem(Product!.Id, userId.Value);
+        await CartItemService.InsertCartItem(Product!.Id, user.Id);
         NavigationManager.NavigateTo("/");
         await JSRuntime.InvokeVoidAsync("alert", "Item has been added to the cart");
     }

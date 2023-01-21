@@ -60,17 +60,20 @@ public static class DtoConversions
         };
     }
 
-    public static CartItemDto ConvertToDto(this CartItem cartItem)
+    public static CartItemDto ConvertToDto(this CartItem cartItem, IEnumerable<Product> products)
     {
+        var product = products.FirstOrDefault(product => product.Id == cartItem.ProductId);
         return new CartItemDto()
         {
             ProductId = cartItem.ProductId,
-            UserId = cartItem.UserId
+            UserId = cartItem.UserId,
+            Name = product.Name,
+            Price = product.Price
         };
     }
 
-    public static IEnumerable<CartItemDto> ConverToDto(this IEnumerable<CartItem> cartItems)
+    public static IEnumerable<CartItemDto> ConverToDto(this IEnumerable<CartItem> cartItems, IEnumerable<Product> products)
     {
-        return cartItems.Select(cartItem => cartItem.ConvertToDto());
+        return cartItems.Select(cartItem => cartItem.ConvertToDto(products));
     }
 }

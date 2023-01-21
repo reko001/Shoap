@@ -30,4 +30,14 @@ public class UserRepository : IUserRepository
         return (await _context.Users.ToListAsync()).Select(user => user.Id).Max() + 1;
     }
 
+    public async Task UpdateMoney(int userId, decimal money)
+    {
+        var user = await _context.Users.FindAsync(userId);
+        if(user == null)
+        {
+            return;
+        }
+        user.Money = money;
+        await _context.SaveChangesAsync();
+    }
 }

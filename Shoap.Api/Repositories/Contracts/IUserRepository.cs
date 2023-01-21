@@ -7,4 +7,5 @@ public interface IUserRepository
     Task<User?> GetUser(string login);
     Task InsertUser(User user);
     Task<int> GetNextId();
+    Task UpdateMoney(int userId, decimal money);
 }

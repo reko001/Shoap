@@ -1,0 +1,18 @@
+.table[b-p3mgzs7ev4], tr[b-p3mgzs7ev4], td[b-p3mgzs7ev4] {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.cart-button[b-p3mgzs7ev4] {
+    background-color: #2c0041;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}

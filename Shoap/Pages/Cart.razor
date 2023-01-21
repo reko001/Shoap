@@ -1,0 +1,31 @@
+﻿@page "/Cart"
+@inherits CartBase
+
+@if(CartItems != null && CartItems.Count() > 0){
+    <h3>Koszyk</h3>
+    <table>
+        <tr>
+            <td>Nazwa produktu</td>
+            <td>Koszt</td>
+            <td>Ilość</td>
+        </tr>
+    @foreach(var item in CartItems)
+    {   
+        <tr>
+            <td>@item.Key.Name</td>
+            <td>@item.Key.Price</td>
+            <td>
+                @item.Value
+                <button @onclick="() => AddItem(item.Key)">+</button>
+                <button @onclick="() => RemoveItem(item.Key)">-</button>
+            </td>
+        </tr>
+    }
+    </table>
+    <h3>Całkowity koszt: @TotalCost</h3>
+    <br />
+    <h3>Twoje pieniądze to: @ContextService.User.Money zł</h3>
+    <button class="cart-button" @onclick=Buy>Kupuj</button>
+}else{
+    <h3>Your cart is empty!</h3>
+}

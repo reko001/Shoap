@@ -1,7 +1,10 @@
-﻿namespace Shoap.Services.Contracts;
+﻿using Shoap.Models.Dtos;
+
+namespace Shoap.Services.Contracts;
 
 public interface IContextService
 {
-    int? UserId { get; set;  }
-    string? UserName { get; set; }
+    UserDto? User { get; }
+
+    void AddUser(UserDto user);
 }

@@ -11,9 +11,11 @@ namespace Shoap.Api.Controllers;
 public class CartItemController : ControllerBase
 {
     private readonly ICartItemRepository _cartItemRepository;
-    public CartItemController(ICartItemRepository cartItemRepository)
+    private readonly IProductRepository _productRepository;
+    public CartItemController(ICartItemRepository cartItemRepository, IProductRepository productRepository)
     {
         _cartItemRepository = cartItemRepository;
+        _productRepository = productRepository;
     }
     
     [HttpGet]
@@ -23,11 +25,12 @@ public class CartItemController : ControllerBase
         try
         {
             var cartItem = await _cartItemRepository.GetCartItem(productId, userId);
-            if(cartItem == null)
+            var products = await _productRepository.GetProducts();
+            if(cartItem == null || products == null)
             {
                 return NotFound();
             }
-            return Ok(cartItem.ConvertToDto());
+            return Ok(cartItem.ConvertToDto(products));
         }
         catch
         {
@@ -41,11 +44,32 @@ public class CartItemController : ControllerBase
         try
         {
             var cartItems = await _cartItemRepository.GetCartItems();
-            if(cartItems == null)
+            var products = await _productRepository.GetProducts();
+            if(cartItems == null || products == null)
             {
                 return NotFound();
             }
-            return Ok(cartItems.ConverToDto());
+            return Ok(cartItems.ConverToDto(products));
+        }
+        catch
+        {
+            return StatusCode(StatusCodes.Status500InternalServerError, "Error retrieving data from the server");
+        }
+    }
+
+    [HttpGet]
+    [Route("{userId}")]
+    public async Task<ActionResult<IEnumerable<CartItemDto>>> GetUserCartItems(int userId)
+    {
+        try
+        {
+            var cartItems = await _cartItemRepository.GetUserCartItems(userId);
+            var products = await _productRepository.GetProducts();
+            if (cartItems == null || products == null)
+            {
+                return NotFound();
+            }
+            return Ok(cartItems.ConverToDto(products));
         }
         catch
         {
@@ -70,6 +94,26 @@ public class CartItemController : ControllerBase
         catch
         {
             return StatusCode(StatusCodes.Status500InternalServerError, "Error saving data to the server");
+        }
+    }
+
+    [HttpDelete]
+    public async Task<ActionResult> DeleteCartItem(int productId, int userId)
+    {
+        try
+        {
+            CartItem cartItem = new() { ProductId = productId, UserId = userId };
+            var existingItem = await _cartItemRepository.GetCartItem(productId, userId);
+            if(existingItem == null) 
+            {
+                return NotFound();
+            }
+            await _cartItemRepository.DeleteCartItem(productId, userId);
+            return Ok();
+        }
+        catch
+        {
+            return StatusCode(StatusCodes.Status500InternalServerError, "Error deleting data from the server");
         }
     }
 }

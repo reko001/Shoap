@@ -9,7 +9,6 @@
       "Shoap.Api/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.OpenApi": "7.0.0",
-          "Microsoft.EntityFrameworkCore.Tools": "7.0.0-preview.5.22302.2",
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.17.0",
           "MySql.EntityFrameworkCore": "7.0.0-preview5",
           "Shoap.Models": "1.0.0",
@@ -37,14 +36,6 @@
           "lib/net5.0/Google.Protobuf.dll": {
             "assemblyVersion": "3.19.4.0",
             "fileVersion": "3.19.4.0"
-          }
-        }
-      },
-      "Humanizer.Core/2.14.1": {
-        "runtime": {
-          "lib/net6.0/Humanizer.dll": {
-            "assemblyVersion": "2.14.0.0",
-            "fileVersion": "2.14.1.48190"
           }
         }
       },
@@ -117,19 +108,6 @@
         }
       },
       "Microsoft.EntityFrameworkCore.Analyzers/7.0.0-preview.5.22302.2": {},
-      "Microsoft.EntityFrameworkCore.Design/7.0.0-preview.5.22302.2": {
-        "dependencies": {
-          "Humanizer.Core": "2.14.1",
-          "Microsoft.EntityFrameworkCore.Relational": "7.0.0-preview.5.22302.2",
-          "Mono.TextTemplating": "2.2.1"
-        },
-        "runtime": {
-          "lib/net6.0/Microsoft.EntityFrameworkCore.Design.dll": {
-            "assemblyVersion": "7.0.0.0",
-            "fileVersion": "7.0.22.30202"
-          }
-        }
-      },
       "Microsoft.EntityFrameworkCore.Relational/7.0.0-preview.5.22302.2": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "7.0.0-preview.5.22302.2",
@@ -140,11 +118,6 @@
             "assemblyVersion": "7.0.0.0",
             "fileVersion": "7.0.22.30202"
           }
-        }
-      },
-      "Microsoft.EntityFrameworkCore.Tools/7.0.0-preview.5.22302.2": {
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore.Design": "7.0.0-preview.5.22302.2"
         }
       },
       "Microsoft.Extensions.ApiDescription.Server/6.0.5": {},
@@ -215,17 +188,6 @@
             "assetType": "runtime",
             "assemblyVersion": "4.0.2.0",
             "fileVersion": "4.700.19.56404"
-          }
-        }
-      },
-      "Mono.TextTemplating/2.2.1": {
-        "dependencies": {
-          "System.CodeDom": "4.4.0"
-        },
-        "runtime": {
-          "lib/netstandard2.0/Mono.TextTemplating.dll": {
-            "assemblyVersion": "2.2.0.0",
-            "fileVersion": "2.2.1.1"
           }
         }
       },
@@ -311,14 +273,6 @@
         }
       },
       "System.Buffers/4.5.1": {},
-      "System.CodeDom/4.4.0": {
-        "runtime": {
-          "lib/netstandard2.0/System.CodeDom.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.6.25519.3"
-          }
-        }
-      },
       "System.Configuration.ConfigurationManager/4.4.1": {
         "dependencies": {
           "System.Security.Cryptography.ProtectedData": "4.4.0"
@@ -442,13 +396,6 @@
       "path": "google.protobuf/3.19.4",
       "hashPath": "google.protobuf.3.19.4.nupkg.sha512"
     },
-    "Humanizer.Core/2.14.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-lQKvtaTDOXnoVJ20ibTuSIOf2i0uO0MPbDhd1jm238I+U/2ZnRENj0cktKZhtchBMtCUSRQ5v4xBCUbKNmyVMw==",
-      "path": "humanizer.core/2.14.1",
-      "hashPath": "humanizer.core.2.14.1.nupkg.sha512"
-    },
     "K4os.Compression.LZ4/1.2.6": {
       "type": "package",
       "serviceable": true,
@@ -498,26 +445,12 @@
       "path": "microsoft.entityframeworkcore.analyzers/7.0.0-preview.5.22302.2",
       "hashPath": "microsoft.entityframeworkcore.analyzers.7.0.0-preview.5.22302.2.nupkg.sha512"
     },
-    "Microsoft.EntityFrameworkCore.Design/7.0.0-preview.5.22302.2": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-RTmvVKSrnoeo0aIFqocrY+i7xni29+cHSXDPP1Z+e4VADCR8o8gCPUZYHp+Byk/m27bk+9BLPm3IJFuBaB6Gyw==",
-      "path": "microsoft.entityframeworkcore.design/7.0.0-preview.5.22302.2",
-      "hashPath": "microsoft.entityframeworkcore.design.7.0.0-preview.5.22302.2.nupkg.sha512"
-    },
     "Microsoft.EntityFrameworkCore.Relational/7.0.0-preview.5.22302.2": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-QWjAZ9JSYvJ/JoplpYwe+UNRGIF1FHwN00ey4wu5R0tK0aK7B+GFpXq7zwLi4uc6wXEC8i3cRymEMyNGFmxEIw==",
       "path": "microsoft.entityframeworkcore.relational/7.0.0-preview.5.22302.2",
       "hashPath": "microsoft.entityframeworkcore.relational.7.0.0-preview.5.22302.2.nupkg.sha512"
-    },
-    "Microsoft.EntityFrameworkCore.Tools/7.0.0-preview.5.22302.2": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-ofGpCJYF16qGA6cGmuHFc5Jp7b86ap9XST3ceOq8U4vW/Jwm3q728woXWgFWjhnsFTuCt6wD9RKraowQ2FV2XQ==",
-      "path": "microsoft.entityframeworkcore.tools/7.0.0-preview.5.22302.2",
-      "hashPath": "microsoft.entityframeworkcore.tools.7.0.0-preview.5.22302.2.nupkg.sha512"
     },
     "Microsoft.Extensions.ApiDescription.Server/6.0.5": {
       "type": "package",
@@ -617,13 +550,6 @@
       "path": "microsoft.win32.systemevents/4.7.0",
       "hashPath": "microsoft.win32.systemevents.4.7.0.nupkg.sha512"
     },
-    "Mono.TextTemplating/2.2.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-KZYeKBET/2Z0gY1WlTAK7+RHTl7GSbtvTLDXEZZojUdAPqpQNDL6tHv7VUpqfX5VEOh+uRGKaZXkuD253nEOBQ==",
-      "path": "mono.texttemplating/2.2.1",
-      "hashPath": "mono.texttemplating.2.2.1.nupkg.sha512"
-    },
     "MySql.Data/8.0.31": {
       "type": "package",
       "serviceable": true,
@@ -679,13 +605,6 @@
       "sha512": "sha512-Rw7ijyl1qqRS0YQD/WycNst8hUUMgrMH4FCn1nNm27M4VxchZ1js3fVjQaANHO5f3sN4isvP4a+Met9Y4YomAg==",
       "path": "system.buffers/4.5.1",
       "hashPath": "system.buffers.4.5.1.nupkg.sha512"
-    },
-    "System.CodeDom/4.4.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-2sCCb7doXEwtYAbqzbF/8UAeDRMNmPaQbU2q50Psg1J9KzumyVVCgKQY8s53WIPTufNT0DpSe9QRvVjOzfDWBA==",
-      "path": "system.codedom/4.4.0",
-      "hashPath": "system.codedom.4.4.0.nupkg.sha512"
     },
     "System.Configuration.ConfigurationManager/4.4.1": {
       "type": "package",

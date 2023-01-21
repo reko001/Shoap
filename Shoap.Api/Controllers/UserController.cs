@@ -59,4 +59,18 @@ public class UserController : ControllerBase
             return StatusCode(StatusCodes.Status500InternalServerError, "Error retrieving data from the server");
         }
     }
+
+    [HttpPut]
+    public async Task<ActionResult> UpdateMoney(UserDto user)
+    {
+        try
+        {
+            await _userRepository.UpdateMoney(user.Id, user.Money);
+            return Ok();
+        }
+        catch
+        {
+            return StatusCode(StatusCodes.Status500InternalServerError, "Error updating data");
+        }
+    }
 }

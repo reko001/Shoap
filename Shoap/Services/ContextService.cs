@@ -1,9 +1,14 @@
-﻿using Shoap.Services.Contracts;
+﻿using Shoap.Models.Dtos;
+using Shoap.Services.Contracts;
 
 namespace Shoap.Services;
 
 public class ContextService : IContextService
 {
-    public int? UserId { get; set; }
-    public string? UserName { get; set; }
+    public UserDto? User { get; private set; }
+
+    public void AddUser(UserDto user)
+    {
+        User = user;
+    }
 }

@@ -4,8 +4,8 @@
 <EditForm Model="@SignInModel" OnValidSubmit="@SignIn">
     <label>Login</label><br />
     <InputText id="login" @bind-Value="SignInModel.Login" /><br />
-    <label>Password</label><br />
+    <label>Hasło</label><br />
     <InputText id="password" type="password" @bind-Value="SignInModel.Password" /><br />
-    <button type="submit">Sign In</button><br />
+    <button type="submit">Zaloguj się</button><br />
     <label>@SignInModel.ErrorMessage</label>
 </EditForm>

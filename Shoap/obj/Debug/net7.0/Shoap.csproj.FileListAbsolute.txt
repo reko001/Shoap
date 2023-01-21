@@ -859,3 +859,4 @@ C:\Repos\Shoap\Shoap\obj\Debug\net7.0\build-gz\rJMt1Bq6.gz
 C:\Repos\Shoap\Shoap\obj\Debug\net7.0\build-gz\llrEP44N.gz
 C:\Repos\Shoap\Shoap\obj\Debug\net7.0\build-gz\F1hPe40l.gz
 C:\Repos\Shoap\Shoap\obj\Debug\net7.0\build-gz\on1FIUuX.gz
+C:\Repos\Shoap\Shoap\obj\Debug\net7.0\scopedcss\Pages\Cart.razor.rz.scp.css

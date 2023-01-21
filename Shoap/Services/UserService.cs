@@ -54,5 +54,8 @@ public class UserService : IUserService
         }
     }
 
-
+    public async Task UpdateMoney(UserDto user)
+    {
+        await _httpClient.PutAsJsonAsync<UserDto>("api/User", user);
+    }
 }

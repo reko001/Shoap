@@ -9,17 +9,23 @@
 
     <main>
 
-        @if (ContextService.UserId == null)
+        @if (ContextService.User == null)
         {
             <div class="top-row px-4">
-                <a href="/SignIn">Sign In</a>
-                <a href="/SignUp">Sign up</a>
+                <a href="/SignIn">Zaloguj się</a>
+                <a href="/SignUp">Zarejestruj się</a>
             </div>
         }
         else
         {
             <div class="top-row px-4">
-               <b>@ContextService.UserName</b>
+                <table>
+                    <tr>
+                        <td padding="0 15px"><b>@ContextService.User.Login</b></td>
+                        <td>@ContextService.User.Money zł</td>
+                        <td><a href="/Cart">Koszyk</a></td>
+                    </tr>
+                </table>
             </div>
         }
 

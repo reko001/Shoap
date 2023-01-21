@@ -21,8 +21,7 @@ public class SignInBase : ComponentBase
             return;
         }
         var user = await UserService.GetUser(SignInModel!.Login);
-        ContextService.UserId = user.Id;
-        ContextService.UserName = user.Login;
+        ContextService.AddUser(user);
         NavigationManager.NavigateTo("/");
     }
 }
